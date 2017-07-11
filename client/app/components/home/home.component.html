@@ -1,0 +1,12 @@
+<div id="fixed" when-scrolled="loadPhotos()">
+  <div class="container">
+    <div class="row">
+      <a ui-sref="album({ id: {{album.albumId}} })" ng-repeat="album in visibleAlboms" class="col-xs-12 col-sm-6 col-md-4 album">
+        <div>
+          <p class="image-title">{{album.title}}</p>
+          <img src="{{album.url}}"/>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

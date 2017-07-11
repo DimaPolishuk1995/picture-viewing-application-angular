@@ -1,0 +1,38 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+#fixed {
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image-title {
+  height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.album {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
